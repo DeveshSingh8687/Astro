@@ -1,0 +1,41 @@
+.home-main{
+    height: 60vh;
+    background-color: #007FFF;
+}
+.home-content{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    place-items: center;
+}
+.home-content h1{
+    margin: 0px;
+}
+.home-content span{
+    font-size: 30px;
+}
+
+/* buttons at bottom */
+.bottom-button{
+    text-align: center;
+    margin-top: 10px;
+}
+.bottom-button a{
+    border: 1px solid #606366;
+    padding: 15px 25px;
+    border-radius: 30px;
+    border-color: #fd7e14;
+    cursor: pointer;
+    text-decoration: none;
+    color: #606366;
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+    vertical-align: middle;
+    margin: 0 4px;
+    transition: all linear 0.2s;
+    height: 40px;
+}
+.bottom-button i{
+    color: #fd7e14;
+}

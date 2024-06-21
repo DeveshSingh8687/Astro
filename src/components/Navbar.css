@@ -1,0 +1,18 @@
+.navbar-main{
+    background: #ffcc33;
+    height: 48px;
+    width: 100%;
+}
+.navbar-list{
+    margin-left: 10%;
+    margin-right: 15%;
+    height: 100%;
+}
+.navbar-list ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 0px;
+}

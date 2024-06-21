@@ -1,0 +1,48 @@
+.main-header{
+    height: 80px;
+    display: flex;
+    place-items: center;
+    /* justify-content: space-between; */
+    width: 80%;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.astro-img{
+    width: 33%;
+}
+
+/* for left right button */
+.header-buttons{
+    width: 67%;
+    text-align: right;
+}
+.header-buttons a{
+    border: 1px solid #606366;
+    padding: 10px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #606366;
+    font-size: 15px;
+    vertical-align: middle;
+    margin: 0 4px;
+    transition: all linear 0.2s;
+}
+
+.header-buttons span{
+    border: 1px solid #606366;
+    padding: 10px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #606366;
+    font-size: 15px;
+    vertical-align: middle;
+    margin: 0 4px;
+    transition: all linear 0.2s;
+    cursor: pointer;
+    background-color: #fd7e14;
+    border-color: #fd7e14;
+    color: #ffffff;
+}
